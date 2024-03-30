@@ -1,0 +1,680 @@
+@font-face {
+    font-family: "Georgia";
+    src: url(../rep1-1/fonts/georgia.ttf);
+}
+@font-face {
+    font-family: "Palatino";
+    src: url(../rep1-1/fonts/ofont.ru_Palatino\ Linotype.ttfx);
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../rep1-1/fonts/Poppins-Regular.ttf);
+}
+
+   /*   HEADER */
+
+header {
+    width: 1440px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+height: 40px;
+width: 1200px;
+display: flex;
+margin: 0 auto;
+}
+
+.logo {
+    height: 40px;
+    width: 78px;
+}
+
+.heada  {
+    display: flex;
+    margin-left: 886px;
+    width: 220px;
+    height: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.hbtns {
+    font-family: "Georgia";
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+/* SECTION 1 THANKUALLAH */
+
+.sec1 {
+    width: 1440px;
+    height: 358px;
+}
+
+.sec1txt {
+    width: 800px;
+    height: 148px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.logosec1 {
+    width: 94px;
+    height: 48px;
+}
+
+.sec1text {
+    font-family: "Georgia";
+    font-size: 35px;
+    width: 768px;
+    height: 80px;
+}
+
+p {
+    color: #353732;
+}
+
+/* section 2 */
+
+.sec2 {
+    width: 1440px;
+    height: 1392px;
+}
+
+.sec2main {
+    width: 768px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.sec21gr {
+    display: flex;
+}
+
+.exertech {
+    margin-left: 4px;
+}
+
+.sec22gr {
+    display: flex;
+    margin-top: 47px;
+}
+
+.sec23gr {
+    display: flex;
+    margin-top: 16px;
+}
+
+/* sec2 TRAVEL */
+
+
+.travelimg {
+    width: 505px;
+    height: 284px;
+}
+
+.headtravel {
+    font-family: "Poppins";
+    font-size: 12px;
+    height: 12px;
+}
+
+.traveltxt {
+    margin-left: 20px;
+    width: 505px;
+}
+
+.travh1 {
+    font-family: "Palatino";
+    font-size: 34px;
+    color: #45525B;
+    height: 34px;
+    font-size: 25px;
+}
+
+.travh2 {
+    height: 68px;
+    color: #45525B;
+    font-family: "Georgia";
+    line-height: 1.5;
+    width: 500px;
+    font-size: 14px;
+}
+
+.travdata {
+    font-family: "Georgia";
+    font-size: 11px;
+    padding-top: 40px;
+    color: #45525B;
+}
+
+
+/* SEC2 EXERCISE */
+
+.exercise {
+    width: 245px;
+    height: 258px;
+}
+
+.exerimg {
+    width: 243px;
+    height: 137px;
+}
+
+.exertxt {
+    margin-left: 20px;
+}
+
+.headexer {
+    color: #353732;
+    font-family: "Poppins";
+    height: 12px;
+    font-size: 12px;
+}
+
+.exerh1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 16px;
+    height: 22px;
+}
+
+.exerdata {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+
+/* SEC2 TECH */
+
+.tech {
+    width: 245px;
+    height: 249px;
+    margin-top: 16px;
+}
+
+.techimg {
+    width: 243px;
+    height: 137px;
+}
+
+.techtxt {
+    margin-left: 20px;
+}
+
+.techhead {
+    color: #353732;
+    font-family: "Poppins";
+    height: 12px;
+    font-size: 12px;
+}
+
+.techh1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 18px;
+    height: 22px;
+}
+
+.techdata {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: 16px;
+}
+
+/* SEC2 DRONE */
+
+.drone {
+    width: 376px;
+    height: 334px;
+}
+
+.droneimg {
+    width: 374px;
+    height: 210px;
+}
+
+.dronetxt {
+    margin-left: 20px;
+}
+
+.dronehead {
+    color: #353732;
+    font-family: "Poppins";
+    height: 12px;
+    font-size: 12px;
+}
+
+.droneh1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 17px;
+    height: 24px;
+}
+
+.dronedata {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+
+/* SEC2 TUTTORIAL */
+
+.tutorial {
+    width: 376px;
+    height: 334px;
+    margin-left: 17px;
+}
+
+.tutorimg {
+    width: 374px;
+    height: 210px;
+}
+
+.tutortxt {
+    margin-left: 20px;
+}
+
+.tuthead {
+    color: #353732;
+    font-family: "Poppins";
+    height: 12px;
+    font-size: 12px;
+}
+
+.tuth1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 17px;
+    height: 24px;
+}
+
+.tutdata {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+}
+
+/* SEC2 REVIEW 1 */
+
+.rev1 {
+    width: 245px;
+    height: 273px;
+}
+
+.rev1img {
+    width: 243px;
+    height: 137px;
+}
+
+.rev1txt {
+    margin-left: 20px;
+}
+
+.review {
+    color: #353732;
+    font-family: "Poppins";
+    height: 12px;
+    font-size: 12px;
+}
+
+.rev1h1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 16px;
+    height: 24px;
+}
+
+.rev1data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: 20px;
+}
+
+/* SEC2 REVIEW 2 */
+
+.rev2 {
+    width: 245px;
+    height: 273px;
+    margin-left: 16px;
+}
+
+.rev2img {
+    width: 243px;
+    height: 137px;
+}
+
+.rev2txt {
+    margin-left: 20px;
+}
+
+.rev2h1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 18px;
+    height: 24px;
+}
+
+.rev2data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: 20px;
+}
+
+/* SEC2 REVIEW 3 */
+
+.rev3 {
+    width: 245px;
+    height: 273px;
+    margin-left: 16px;
+}
+
+.rev3img {
+    width: 243px;
+    height: 137px;
+}
+
+.rev3txt {
+    margin-left: 20px;
+}
+
+.rev3h1 {
+    color: #45525B;
+    font-family: "Palatino";
+    font-size: 18px;
+    height: 24px;
+}
+
+.rev3data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: 20px;
+}
+
+/* SECTION 3 */
+
+.sec3main {
+    display: flex;
+    width: 768px;
+    height: 187px;
+    margin: 0 auto;
+}
+
+.sec3h0 {
+    font-family: "Palatino";
+    font-size: 28px;
+}
+
+.sec3h1 {
+    font-family: "Georgia";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.sec3reg {
+    height: 172px;
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    
+}
+
+.regp {
+    font-family: "Georgia";
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.inp {
+    width: 376px;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #eff0f3;
+    border-color: #7d7f85;
+    border-style: solid;
+    margin: 0px;
+}
+
+.btn {
+    width: 82px;
+    height: 38px;
+    background-color: #353732;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+/* SECTION 4 */
+
+.sec4 {
+    width: 1440px;
+    height: 2736px;
+}
+
+.sec4main {
+    width: 768px;
+    height: 2484px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec41 {
+    display: flex;
+    width: 768px;
+    height: 172px;
+    margin: 0px;
+}
+
+.sec41txt {
+    margin-left: 20px;
+}
+
+.sec41h0 {
+    font-family: "Palatino";
+    font-size: 18px;
+    color: #45525B;
+    margin-bottom: 8px;
+}
+
+.sec41h1 {
+    font-family: "Georgia";
+    font-size: 16px;
+    color: #45525B; 
+    margin-top: 0px;
+}
+
+.sec41data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: -2px;
+}
+
+.sec41img img {
+width: 200px;
+height: 122px;
+padding-top: 10px;
+}
+
+.sec42 {
+    display: flex;
+    width: 768px;
+    height: 172px;
+    margin: 0px;
+}
+
+.sec42txt {
+    margin-left: 20px;
+}
+
+.sec42h0 {
+    font-family: "Palatino";
+    font-size: 18px;
+    color: #45525B;
+    margin-bottom: 8px;
+}
+
+.sec42h1 {
+    font-family: "Georgia";
+    font-size: 16px;
+    color: #45525B; 
+    margin-top: 0px;
+    line-height: 22.5px;
+}
+
+.sec42data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    padding-top: -2px;
+}
+
+.sec42img img {
+width: 200px;
+height: 122px;
+padding-top: 10px;
+}
+
+.sec43 {
+    width: 767px;
+    height: 150px;
+}
+
+.sec43h0 {
+    font-family: "Palatino";
+    font-size: 17px;
+    color: #45525B;
+    margin-bottom: 8px;
+}
+
+.sec43h1 {
+    font-family: "Georgia";
+    font-size: 16px;
+    color: #45525B;
+    margin-top: 0px;
+    line-height: 22.5px;
+}
+
+.sec43data {
+    font-family: "Georgia";
+    font-size: 11px;
+    color: #45525B;
+    margin-top: -5px;
+}
+
+.sec44h1 {
+    font-family: "Georgia";
+    font-size: 15px;
+    color: #45525B;
+    margin-top: 0px;
+    line-height: 22.5px;
+}
+
+.sec4last {
+    display: flex;
+    width: 765px;
+    height: 171px;
+    margin-top: 30px;
+}
+
+.sec4va {
+    width: 109px;
+    height: 22px;
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.sec4a {
+    font-family: "Georgia";
+    font-size: 15px;
+    text-decoration: 0;
+    color: #575445;
+}
+
+.sec4va img {
+    padding-left: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+/* FOOTER */
+
+.foot {
+    height: 356px;
+    width: 1440px;
+}
+
+.footmain {
+    width: 800px;
+    height: 156px;
+    margin: 0 auto;
+}
+
+.foottxt {
+    width: 600px;
+    height: 23px;
+    display: flex;
+}
+
+.foota {
+    font-family: "Georgia";
+    font-size: 14px;
+    text-decoration: 0;
+    color: #575445;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.footp {
+    font-size: 14px;
+    font-family: "Georgia";
+}
+
+.footsa a {
+    font-family: "Georgia";
+    font-size: 14px;
+    text-decoration: 0;
+    color: #575445;
+}
+
+.footsa {
+    width: 768px;
+    height: 22px;
+    margin-top: 35px;
+}
+
+.footarc {
+    padding-left: 25px;
+}
+
+.footaa {
+    width: 768px;
+    height: 22px;
+    margin-top: 35px;
+    display: flex;
+    gap: 25px;
+}
+
+.footaa a {
+    font-family: "Georgia";
+    font-size: 14px;
+    text-decoration: 0;
+    color: #575445;
+}
