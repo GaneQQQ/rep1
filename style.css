@@ -57,6 +57,8 @@ li {
 .sec1 {
     width: 1440px;
     height: 358px;
+    background-color: white;
+
 }
 
 .sec1txt {
@@ -87,6 +89,7 @@ p {
 .sec2 {
     width: 1440px;
     height: 1392px;
+    background-color: #FAFAFA;
 }
 
 .sec2main {
@@ -162,6 +165,7 @@ p {
 .exercise {
     width: 245px;
     height: 258px;
+    background-color: white;
 }
 
 .exerimg {
@@ -199,6 +203,7 @@ p {
     width: 245px;
     height: 249px;
     margin-top: 16px;
+    background-color: white;
 }
 
 .techimg {
@@ -236,6 +241,7 @@ p {
 .drone {
     width: 376px;
     height: 334px;
+    background-color: white;
 }
 
 .droneimg {
@@ -273,6 +279,7 @@ p {
     width: 376px;
     height: 334px;
     margin-left: 17px;
+    background-color: white;
 }
 
 .tutorimg {
@@ -309,6 +316,7 @@ p {
 .rev1 {
     width: 245px;
     height: 273px;
+    background-color: white;
 }
 
 .rev1img {
@@ -347,6 +355,7 @@ p {
     width: 245px;
     height: 273px;
     margin-left: 16px;
+    background-color: white;
 }
 
 .rev2img {
@@ -378,6 +387,7 @@ p {
     width: 245px;
     height: 273px;
     margin-left: 16px;
+    background-color: white;
 }
 
 .rev3img {
@@ -410,6 +420,13 @@ p {
     width: 768px;
     height: 187px;
     margin: 0 auto;
+    margin-top: 100px;
+}
+
+.sec3 {
+    background-color: white;
+    height: 387px;
+    width: 1440px;
 }
 
 .sec3h0 {
@@ -464,6 +481,7 @@ p {
 .sec4 {
     width: 1440px;
     height: 2736px;
+    background-color: #FAFAFA;
 }
 
 .sec4main {
@@ -619,12 +637,14 @@ padding-top: 10px;
 .foot {
     height: 356px;
     width: 1440px;
+    background-color: white;
 }
 
 .footmain {
     width: 800px;
     height: 156px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .foottxt {
